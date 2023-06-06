@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Charles Blain Morin"
+title                    : "Matthew Pesavento"
 title_separator          : "-"
-name                     : &name "Charles Blain Morin"
-description              : &description "PhD Cadidate in Public Policy and Management | Data Science Consultant"
-url                      : https://blainmorin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Matthew Pesavento"
+description              : &description "PhD Candidate"
+url                      : https://matthewpesavento.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "blainmorin.github.io"
+repository               : "matthewpesavento.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -66,30 +66,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Blain Morin"
+  name             : "Matthew Pesavento"
   avatar           : "profile.png"
-  bio              : "PhD Candidate in Public Policy and Management at the John Glenn College at The Ohio State University"
-  location         : "Columbus, OH"
+  bio              : "PhD Candidate"
+  location         : "Columbus, Ohio, USA"
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : https://scholar.google.com/citations?user=Njlax-MAAAAJ&hl=en
-  email            : morin.42@osu.edu
+  googlescholar    : #https://scholar.google.com/citations?user=Njlax-MAAAAJ&hl=en
+  email            : "pesavento [dot] 5 [at] osu [dot] edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : http://glenn.osu.edu/phd-students/morin/
+  uri              : https://glenn.osu.edu/matthew-pesavento
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/blainmorin"
+  github           : "https://github.com/matthewpesavento"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : blainmorin
-  orcid            : "https://orcid.org/0000-0003-3686-9085"
+  linkedin         : matthewtpesavento
+  orcid            : "https://orcid.org/0000-0001-5020-1941"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
