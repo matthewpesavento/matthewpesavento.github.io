@@ -68,12 +68,12 @@ analytics:
 author:
   name             : "Matthew Pesavento"
   avatar           : "pesavento_headshot1.jpg"
-  bio              : "PhD Candidate"
+  bio              : "pesavento [dot] 5 [at] osu [dot] edu"
   location         : "Columbus, Ohio, USA"
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #https://scholar.google.com/citations?user=Njlax-MAAAAJ&hl=en
-  email            : "pesavento [dot] 5 [at] osu [dot] edu"
+  email            : 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : https://glenn.osu.edu/matthew-pesavento
   bitbucket        :
