@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Blain. I am a Ph.D. Candidate in Public Policy and Management at the John Glenn College of Public Affairs at The Ohio State University. My primary research interests lie in the fields of economic resilience, energy policy, and criminal justice policy. I am dedicated to contributing to the development of innovative solutions to complex policy challenges.
+Welcome to the personal website of Matthew Pesavento. I am a PhD Candidate in Public Policy at the John Glenn College of Public Affairs at the Ohio State University. I primarily study questions related to the household financial effects of medical disease. I am a published wine economist, which stems from my secondary research interests in regulation.
 
-Currently, I am applying my skills as a data scientist in the Enterprise Analytics Office at Nationwide Insurance, where I am involved in leveraging data-driven insights to drive strategic decision-making across the organization.
+As a research assistant and scholar over the last four years, I have helped build the Ohio State University Consumer Credit Panel (OSU CCP) and the various administrative datasets that have been connected to it. This effort at the Ohio State University brings together the universe of consumer credit records for Ohio residents (via Experian), as well as a panel of a random sample of individuals nationally. In order to answer questions related to the entire household, as well as to the individual specifically, our team leverages this universe of consumers to define household relationships. Our team also focuses on creating novel linkages between the OSU CCP and administrative datasets from various State of Ohio government departments (e.g. labor force engagement, unemployment insurance, affordable housing programs, the state cancer registry, and higher education) and medical facilities (e.g. Ohio State University Wexner Medical Center). This effort allows us to have arguably the clearest view into individuals' behaviors, preferences, and financial distress of any team around the country.
 
-Originally from Hawaii and raised in Massachusetts, I have had the privilege of living in several diverse and vibrant communities. I hold an ScM in Biostatistics from Brown University and a BS in Economics from The Ohio State University, which have provided me with a strong foundation in both quantitative analysis and policy research.
+Before entering graduate school, I graduated from the University of Michigan with a B.S. in Economics. I then entered an analytics development program at Cardinal Health Inc., where I worked primarily in advanced analytics and strategic pricing. There, I helped build an algorithm to reshape sales territories of medical sales representatives across the country. Together with my two teammates, this effort was recognized as the top advanced analytics project of the year 2016-2017 across the entire (Fortune 15) company. After two years at Cardinal Health, I returned to academia, completing the pre-doctoral MA in Economics at Miami University, and subsequently entering the PhD program at the Ohio State University.
 
-When I'm away from my desk, I enjoy spending time outdoors, whether that means fly fishing, playing golf and pickleball, or simply taking a leisurely hike in a Metro Park. I am also an avid crossword puzzler and love to cook.
-
-[Click here to schedule a meeting with me.](https://outlook.office.com/bookwithme/user/199dcecab714464cb2ffcb754d11ee93@buckeyemail.osu.edu?anonymous&ep=plink)
+When I am not working, I enjoy spending time with my wife and two daughters. I am a wine enthusiast, USSF and OHSAA soccer referee, triathlete, and amateur geneologist. I am a dual-citizen of the United States and Italy.
 
 
 
