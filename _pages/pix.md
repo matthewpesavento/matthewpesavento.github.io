@@ -4,6 +4,7 @@ title: "Data"
 ---
 
 **Direct to Consumer Laws**
+
 | State          | Reciprocal | Permit | Statute or Act                                                                          |
 |----------------|------------|--------|-----------------------------------------------------------------------------------------|
 | Alabama        | N          | -      | Ala. Code §28-1-4                                                                       |
