@@ -1,111 +1,59 @@
 ---
 permalink: /pix/
-title: "Pictures"
+title: "Data"
 ---
 
-## Here are some random photos of travels, goings on, and cats:
+**Direct to Consumer Laws**
+| State          | Reciprocal | Permit | Statute or Act                                                                          |
+|----------------|------------|--------|-----------------------------------------------------------------------------------------|
+| Alabama        | N          | -      | Ala. Code §28-1-4                                                                       |
+| Alaska         | N          | 1993   | AS §04.11.140                                                                           |
+| Arizona        | N          | 2016   | A.R.S.§4-203.04                                                                         |
+| Arkansas       | N          | -      | Ark. Code §3-5-1704                                                                     |
+| California     | Y          | 2006   | California Business and Professions Code -- §23661.3                                    |
+| Colorado       | Y          | 2006   | CO Liquor Code §12-47-104                                                               |
+| Connecticut    | N          | 2005   | \begin{tabular}[c]{@{}l@{}}Conn. Gen. Stat. §30-16(e), 30-18, 30-18a, 30-19f, 30-48(a); |
+| Delaware       | N          | -      | Del. Code, Title 4, Chapter 5,§501(c)                                                   |
+| Florida        | N          | 2006   | F.S. §561.545(1)                                                                        |
+| Georgia        | N          | 2008   | GA Code §03-06-1931                                                                     |
+| Hawaii         | Y          | 2007   | HI Rev Stat §281-33.6                                                                   |
+| Idaho          | Y          | 2006   | ID Code §23-1309A                                                                       |
+| Illinois       | Y          | 2008   | P.A. 95-634; Ill. Rev. Stat. ch. 235, §5/5-1 (r)                                        |
+| Indiana        | N          | 2006   | IC §7.1-3-26 as added by P.L.165-2006, SEC.34.                                          |
+| Iowa           | Y          | 2010   | IA Code §123.187                                                                        |
+| Kansas         | N          | 2006   | KS §41-350                                                                              |
+| Kentucky       | N          | -      | KY Rev Stat §244.165                                                                    |
+| Louisiana      | N          | 2003   | LA Rev Stat §26:359                                                                     |
+| Maine          | N          | 2009   | Me. Rev. Stat. Ann. tit. 28-A, §1403-A                                                  |
+| Maryland       | N          | 2011   | Md. Code Ann. Art. 2B, §7.5-102                                                         |
+| Massachusetts  | N          | 2015   | M.G.L.A. 138 §19F                                                                       |
+| Michigan       | N          | 2005   | Mich. Comp. Laws §436.1203                                                              |
+| Minnesota      | Y          | 2005   | MN Stat §340A.417                                                                       |
+| Mississippi    | N          | -      | MS Code §67-1-9 and 67-1-41                                                             |
+| Missouri       | Y          | 2007   | MO Rev Stat §311.185                                                                    |
+| Montana        | N          | 2013   | MCA §16-3-411                                                                           |
+| Nebraska       | N          | 2001   | Nebraska Rev Stat §53-123.15                                                            |
+| Nevada         | N          | 1999   | NRS §369.464 / 369.462                                                                  |
+| New Hampshire  | N          | 2003   | NH Rev Stat §178:27                                                                     |
+| New Jersey     | N          | 2012   | P.L.2011, c.207                                                                         |
+| New Mexico     | Y          | 2011   | NM Stat §60-6A-11.1                                                                     |
+| New York       | N          | 2005   | NYS ABCL §79-c                                                                          |
+| North Carolina | N          | 2003   | NC G.S. §18B-1001.1                                                                     |
+| North Dakota   | N          | 1999   | ND Code §5-01-16                                                                        |
+| Ohio           | N          | 2007   | ORC §4303.232                                                                           |
+| Oklahoma       | N          | 2018   | OK Stat §37A-3-106                                                                      |
+| Oregon         | Y          | 2008   | ORS §37A-3-106                                                                          |
+| Pennsylvania   | N          | 2016   | Act 39 of P.L. 273                                                                      |
+| Rhode Island   | N          | -      | RI Code §3-4-8                                                                          |
+| South Carolina | N          | 2006   | SC Code §61-4-747                                                                       |
+| South Dakota   | N          | 2016   | SD Codified L §35-12B-2                                                                 |
+| Tennessee      | N          | 2009   | TN Code §57-3-217                                                                       |
+| Texas          | N          | 2005   | Alcoholic Beverage Code Ch 54                                                           |
+| Utah           | N          | -      | Utah Code Ann. §32B-4-401                                                               |
+| Vermont        | N          | 2006   | Act 140 of 2006; Title 7 VSA                                                            |
+| Virginia       | N          | 2003   | Code of Virginia §4.1.209.1                                                             |
+| Washington     | Y          | 2006   | RCW §66.20.360                                                                          |
+| West Virginia  | Y          | 2007   | WV Code §60-8-6a                                                                        |
+| Wisconsin      | Y          | 2007   | Wis. Stats. §125.535                                                                    |
+| Wyoming        | N          | 2001   | WY Stat §12-2-204                                                                       |
 
-Amanda, my wife!:
-![](/images/wife.jpg)
-
-Return to the Sandbar 2023:
-![](/images/sandbar2.jpg)
-
-Kikko staying warm 2022:
-![](/images/catfire.jpg)
-
-DC for APPAM 2022:
-![](/images/dc.jpg)
-
-Kikko is just gorgeous 2022:
-![](/images/kikko2022.jpg)
-
-Maui 2022:
-![](/images/maui.jpg)
-
-Greece 2021:
-![](/images/greece.jpg)
-
-Munich 2021:
-![](/images/munich.jpg)
-
-Go bucks:
-![](/images/bucks.jpg)
-
-Biggest bonfire I've ever seen 2021:
-![](/images/fire.jpg)
-
-Mammouth Cave 2021:
-![](/images/cave.jpg)
-
-Cape Cod 2021:
-![](/images/cape.jpg)
-
-Kikko 2020:
-![](/images/kikko2.jpg)
-
-Nailed it Vermont 2020:
-![](/images/vermont.jpg)
-
-Me fishing from the campsite 2020:
-![](/images/mainefish.JPG)
-
-My Dad and I rode from Rhode Island to Acadia National Park 2020: 
-![](/images/motopic.jpg)
-
-Winter Night hike 2019:
-![](/images/hike.jpg)
-
-I love to go clamming 2019:
-![](/images/clam.jpg)
-
-Fly fishing in The Blue Mountains 2019:
-![](/images/fly.jpg)
-
-Denver Art Museum (2019):
-![](/images/denver.jpg)
-
-Baby kikko 2019:
-![](/images/kikko1.JPG)
-
-Maine 2018:
-![](/images/acadia1.JPG)
-
-RI striper:
-![](/images/striper.JPG)
-
-Riding Uncle Ben's ATV around:
-![](/images/atv.JPG)
-
-Mauna Kea Summit:
-![](/images/kea.JPG)
-
-Big island 2018:
-![](/images/big.PNG)
-
-Amanda photographs some lava going into the ocean on the big island 2018:
-![](/images/lava.JPG)
-
-Shanghai 2018:
-![](/images/china.JPG)
-
-My clam rake!
-![](/images/rake.JPG)
-
-Brother Miles and I hiking in RI:
-![](/images/miles.JPG)
-
-In Cuba 2017:
-![](/images/cuba.JPG)
-
-Getting towed in the lake:
-![](/images/tow.JPG)
-
-Oahu 2017:
-![](/images/oahu2017.JPG)
-
-Amanda and I:
-![](/images/wed.jpg)
-
-My friend Chris and I tried to bike from Columbus to Cincinatti in 2016:
-![](/images/ohb1.jpg)
