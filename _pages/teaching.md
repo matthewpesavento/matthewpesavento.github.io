@@ -2,6 +2,7 @@
 permalink: /teaching/
 layout: archive
 excerpt: "Teaching"
+title: "Teaching"
 author_profile: true
 redirect_from: 
   - /about/
