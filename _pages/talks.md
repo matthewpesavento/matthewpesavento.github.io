@@ -1,3 +1,14 @@
+---
+permalink: /talks/
+layout: archive
+excerpt: "Invited Presentations"
+title: "Invited Presentations"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 # Association of Public Policy and Management 
 *November 2024*
 - The effects of parental cancer diagnosis on the higher educational outcomes of young adults
