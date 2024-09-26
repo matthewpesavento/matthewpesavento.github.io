@@ -12,6 +12,6 @@ redirect_from:
 <iframe
     src="https://matthewpesavento.github.io/files/Pesavento_Modern_CV.pdf"
     style="border: none;"
-    height="100%"
+    height="600px"
     width="100%"
     scrolling="auto"></iframe>
