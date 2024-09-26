@@ -8,4 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-# Teaching
+## PUBAFRS4010: Decision Making
+
+[Download a sample of my teaching materials](https://matthewpesavento.github.io/files/teaching4010.zip)
