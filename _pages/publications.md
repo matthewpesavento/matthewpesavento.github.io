@@ -22,7 +22,7 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 ***
 
-### (Working Paper from Dissertation) [Household Economic Consequences of Type II Diabetes Diagnosis: Evidence from Marginal Diagnosis] (https://matthewpesavento.github.io/files/Pesavento_Dissertation_Diabetes.pdf)
+### (Working Paper from Dissertation) [Household Economic Consequences of Type II Diabetes Diagnosis: Evidence from Marginal Diagnosis](https://matthewpesavento.github.io/files/Pesavento_Dissertation_Diabetes.pdf)
 
 #### In this paper, I exploit the recommendation of the American Diabetes Association's diagnosis criteria for Type II Diabetes in an Regression Discontinuity Design to understand the marginal effect of Type II Diabetes on household financial distress, and on labor supply. To answer these questions, I merge patient data from the Ohio State University Wexner Medical Center with Experian consumer credit data, and with Ohio Department of Jobs and Family Services. To my knowledge, this is the first paper that seeks to understand financial distress and labor supply in a causal way using administrative credit and patient records. Moreover, this paper analyzes the extent to which patients may use householding as a financial coping mechanism, and/or as a buffer against changes in labor supply.
 
@@ -35,7 +35,7 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 ***
 
-### (Working Paper from Dissertation) [The impact of household cancer diagnosis on investment in higher education] (https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerHEI.pdf)
+### (Working Paper from Dissertation) [The impact of household cancer diagnosis on investment in higher education](https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerHEI.pdf)
 
 ##### *This research was supported by the Alfred P. Sloan Foundation through a research grant awarded to the National Bureau of Economic Research*
 
@@ -50,7 +50,7 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 ***
 
-### (Working Paper from Dissertation) [The impact of household cancer diagnosis on labor supply of young adults] (https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerHEI.pdf)
+### (Working Paper from Dissertation) [The impact of household cancer diagnosis on labor supply of young adults](https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerHEI.pdf)
 
 ##### *This research was supported by the Alfred P. Sloan Foundation through a research grant awarded to the National Bureau of Economic Research*
 
