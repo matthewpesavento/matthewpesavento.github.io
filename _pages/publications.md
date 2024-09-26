@@ -5,7 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-### Note: 3 ##### The research listed here that is not published may contain errors, and should not be cited.
+### Note:
+##### The research listed here that is not published may contain errors, and should not be cited.
 
 **The impact of direct to consumer shipping laws on the number and size distribution of U.S. wineries**
 
