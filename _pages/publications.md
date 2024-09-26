@@ -11,12 +11,12 @@ author_profile: true
 
 ### [The impact of direct to consumer shipping laws on the number and size distribution of U.S. wineries](https://doi.org/10.1017/jwe.2022.49)
 
-<iframe
+<!-- <iframe
     src="https://matthewpesavento.github.io/files/the-impact-of-direct-to-consumer-shipping-laws-on-the-number-and-size-distribution-of-us-wineries.pdf"
     style="border: none;"
     height="300px"
     width="100%"
-    scrolling="auto"></iframe>
+    scrolling="auto"></iframe> -->
 
 Pesavento, M. (2022). The impact of direct to consumer shipping laws on the number and size distribution of U.S. wineries. *Journal of Wine Economics, 17*(4), 270-295. doi:10.1017/jwe.2022.49
 
@@ -26,12 +26,12 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 #### In this paper, I exploit the recommendation of the American Diabetes Association's diagnosis criteria for Type II Diabetes in an Regression Discontinuity Design to understand the marginal effect of Type II Diabetes on household financial distress, and on labor supply. To answer these questions, I merge patient data from the Ohio State University Wexner Medical Center with Experian consumer credit data, and with Ohio Department of Jobs and Family Services. To my knowledge, this is the first paper that seeks to understand financial distress and labor supply in a causal way using administrative credit and patient records. Moreover, this paper analyzes the extent to which patients may use householding as a financial coping mechanism, and/or as a buffer against changes in labor supply.
 
-<iframe
+<!-- <iframe
     src="https://matthewpesavento.github.io/files/Pesavento_Dissertation_Diabetes.pdf"
     style="border: none;"
     height="300px"
     width="100%"
-    scrolling="auto"></iframe>
+    scrolling="auto"></iframe> -->
 
 ***
 
@@ -41,12 +41,12 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 #### The onset of a costly medical condition affects not only the individual with the disease but also creates a shock to household finances that may affect labor and human capital investment decisions of other household members. Using a unique dataset comprised of Experian consumer credit information matched to administrative data from the state of Ohio, I aim to assess inter-generational effects of household medical disease, with particular focus on changes in college dropout rates, by comparing outcomes of students without a household cancer diagnosis to outcomes of students with a household cancer diagnosis. The dataset matches consumer credit information from Experian with administrative data from the state of Ohio on students and their household members enrolled in public universities. I also match to the state cancer registry for the state of Ohio.
 
-<iframe
+<!-- <iframe
     src="https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerHEI.pdf"
     style="border: none;"
     height="300px"
     width="100%"
-    scrolling="auto"></iframe>
+    scrolling="auto"></iframe> -->
 
 ***
 
@@ -56,12 +56,12 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 #### It is increasingly documented that the emotional, financial, and employment strain of medical disease (and particularly cancer) can be as great or greater for caregivers as it is for the patient himself. While a growing literature seeks to understand the labor impacts of medical disease on spouses or adult children, very little research exists that examines the impact that chronic medical disease has on early labor force engagement of young adults. I match the cancer registry from the state of Ohio with wages from the Ohio Department of Job and Family Services, and use a stacked difference in difference event study approach to study the impact that household cancer diagnosis has on labor outcomes of young adults.
 
-<iframe
+<!-- <iframe
 src="https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerLF.pdf"
 style="border: none;"
 height="300px"
 width="100%"
-scrolling="auto"></iframe>
+scrolling="auto"></iframe> -->
 
 ***
 
