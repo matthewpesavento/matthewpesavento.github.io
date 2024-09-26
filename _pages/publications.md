@@ -14,7 +14,7 @@ author_profile: true
 <iframe
     src="https://matthewpesavento.github.io/files/the-impact-of-direct-to-consumer-shipping-laws-on-the-number-and-size-distribution-of-us-wineries.pdf"
     style="border: none;"
-    height="200px"
+    height="300px"
     width="100%"
     scrolling="auto"></iframe>
 
