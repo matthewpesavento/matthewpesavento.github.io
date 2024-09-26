@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h3>Heading level 3</h3> <h5> The research listed here that is not published may contain errors, and should not be cited. </h5>
+### Note: 3 ##### The research listed here that is not published may contain errors, and should not be cited.
 
 **The impact of direct to consumer shipping laws on the number and size distribution of U.S. wineries**
 
