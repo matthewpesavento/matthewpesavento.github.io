@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ***
-### **<span style="color:blue"> Note: </span>.** The unpublished research listed here may contain errors, and should not be cited.
+### **<span style="color:blue"> Note: </span>** The unpublished research listed here may contain errors, and should not be cited.
 ***
 
 **The impact of direct to consumer shipping laws on the number and size distribution of U.S. wineries**
