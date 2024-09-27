@@ -41,13 +41,6 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 #### In this paper, I exploit the recommendation of the American Diabetes Association's diagnosis criteria for Type II Diabetes in an Regression Discontinuity Design to understand the marginal effect of Type II Diabetes on household financial distress, and on labor supply. To answer these questions, I merge patient data from the Ohio State University Wexner Medical Center with Experian consumer credit data, and with Ohio Department of Jobs and Family Services. To my knowledge, this is the first paper that seeks to understand financial distress and labor supply in a causal way using administrative credit and patient records. Moreover, this paper analyzes the extent to which patients may use householding as a financial coping mechanism, and/or as a buffer against changes in labor supply.
 
-<!-- <iframe
-    src="https://matthewpesavento.github.io/files/Pesavento_Dissertation_Diabetes.pdf"
-    style="border: none;"
-    height="300px"
-    width="100%"
-    scrolling="auto"></iframe> -->
-
 ***
 
 ### (Dissertation) [The impact of household cancer diagnosis on investment in higher education](https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerHEI.pdf)
@@ -55,13 +48,6 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 ##### *This research was supported by the Alfred P. Sloan Foundation through a research grant awarded to the National Bureau of Economic Research*
 
 #### The onset of a costly medical condition affects not only the individual with the disease but also creates a shock to household finances that may affect labor and human capital investment decisions of other household members. Using a unique dataset comprised of Experian consumer credit information matched to administrative data from the state of Ohio, I aim to assess inter-generational effects of household medical disease, with particular focus on changes in college dropout rates, by comparing outcomes of students without a household cancer diagnosis to outcomes of students with a household cancer diagnosis. The dataset matches consumer credit information from Experian with administrative data from the state of Ohio on students and their household members enrolled in public universities. I also match to the state cancer registry for the state of Ohio.
-
-<!-- <iframe
-    src="https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerHEI.pdf"
-    style="border: none;"
-    height="300px"
-    width="100%"
-    scrolling="auto"></iframe> -->
 
 ***
 
@@ -71,12 +57,28 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 #### It is increasingly documented that the emotional, financial, and employment strain of medical disease (and particularly cancer) can be as great or greater for caregivers as it is for the patient himself. While a growing literature seeks to understand the labor impacts of medical disease on spouses or adult children, very little research exists that examines the impact that chronic medical disease has on early labor force engagement of young adults. I match the cancer registry from the state of Ohio with wages from the Ohio Department of Job and Family Services, and use a stacked difference in difference event study approach to study the impact that household cancer diagnosis has on labor outcomes of young adults.
 
-<!-- <iframe
-src="https://matthewpesavento.github.io/files/Pesavento_Dissertation_CancerLF.pdf"
-style="border: none;"
-height="300px"
-width="100%"
-scrolling="auto"></iframe> -->
+***
+
+### [Economic security of older adults after the death of a partner: evidence from credit data with Stephanie Moulton, Meta Brown, Don Haurin, and Caezilia Loibl](https://minds.wisconsin.edu/handle/1793/84736)
+#### The death of a partner has long been recognized as a significant threat to the economic security of older adults. Older adults experienced a significant increase in unexpected deaths during the COVID-19 pandemic. This study asks: How does the death of a partner during the COVID-19 pandemic affect the economic security of the surviving older adult? Does survivor financial vulnerability differ from pre-pandemic periods? We utilize a unique panel dataset for 2015-2021, combining individual level administrative data on quarterly labor force participation and earnings and detailed financial information from credit report data, for older adults (age 50 and older) in Ohio. The credit data include death indicators each quarter. We use co-residence at the same address and a predictive algorithm based on age, gender, and credit characteristics to match individuals in our dataset to probable partners within a household. We (1) examine how pre-pandemic indicators of financial vulnerability associate with the death of a partner during COVID-19; (2) estimate the relationship between the death of a partner and labor force and credit outcomes—identifying differential pandemic effects relative to prior periods; and (3) explore heterogeneous effects for particularly vulnerable groups of survivors—including women and those with weaker financial histories who are more likely dependent on Social Security survivors’ benefits. This study is among the first to provide a detailed analysis of the economic security of older adults who experienced the death of a partner during COVID-19.
+
+***
+
+### Association of type II diabetes with patient financial outcomes: evidence from consumer credit records with Caezilia Loibl, Stephanie Moulton, Don Haurin, Madison Hyer, Djhenne Dalmacy, and Joshua Joseph
+
+#### One in four adults with type 2 diabetes report rationing insulin and one in three report rationing diabetes supplies1, but the broader role of diabetes for credit and debt burdens remains unexplored. This study has unique access to individual-level electronic health records (EHR) and credit panel data to assess the association between a type 2 diabetes diagnosis and missed bill payments, debt in collections, lower credit scores, debt charge-offs, foreclosures, and bankruptcy filings.
+
+***
+
+### [Racial disparities in older adults' economic security when experiencing chronic health conditions: insights from electronic health records, wage earnings, and credit data with Caezilia Loibl, Stephanie Moulton, Don Haurin, Joshua Joseph, Madison Hyer, Kendall Moody, Adam Perzynski, Doug Einstadter, Stephania Miller-Hughes](https://rdrc.wisc.edu/project/wi24-03)
+
+#### Economic insecurity in older age can reduce the ability to cope with a costly disease and exacerbate racial health disparities. This study asks: How do different sources of financial resources associate with the control of type-2 diabetes, a common chronic condition in older age? We construct a new panel dataset that links electronic health records to employment and credit data for a sample of older adults in Ohio from 2018-2022. We identify how wage earnings, access to credit, and debt are related to diabetes control and disability-related complications. We examine heterogeneity by race, gender, and income.
+
+***
+
+### Mind the gap: state reductions in unemployment insurance and credit among vulnerable households
+
+#### We exploit differences in timing of Federal Pandemic Unemployment Compensation (FPUC) expiration between Ohio and Wisconsin to study the relationship between unemployment insurance benefits and financial distress amongst recent UI beneficiaries. We match state employment and UI administrative datasets from Wisconsin and Ohio with consumer credit records from Experian credit bureau, and implement a difference in difference design.
 
 ***
 ***
