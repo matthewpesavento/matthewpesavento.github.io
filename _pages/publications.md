@@ -79,7 +79,7 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 ***
 
-### Mind the gap: state reductions in unemployment insurance and credit among vulnerable households
+### Mind the gap: state reductions in unemployment insurance and credit among vulnerable households with Alec Rhodes, Trisha Chanda, Michael Collins, and Stephanie Moulton
 
 #### We exploit differences in timing of Federal Pandemic Unemployment Compensation (FPUC) expiration between Ohio and Wisconsin to study the relationship between unemployment insurance benefits and financial distress amongst recent UI beneficiaries. We match state employment and UI administrative datasets from Wisconsin and Ohio with consumer credit records from Experian credit bureau, and implement a difference in difference design.
 
