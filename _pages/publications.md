@@ -29,9 +29,15 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 ## Under Review
 
-### [How are retail prices formed in restructed electricity markets? with Dormady, Roa-Henriquez, Hoyt, Koenig, Welch, and Li](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4918037)
+### [How are retail prices formed in restructed electricity markets? with Dormady, Roa-Henriquez, Hoyt, Koenig, Welch, and Li (_Energy Economics_)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4918037)
 
 #### A key challenge in obtaining efficient and competitive retail rates in restructured electricity markets is constructing an appropriate default generation price. Default prices in restructured states are often set by competitive procurement auctions in which firms bid to supply a fixed percentage (i.e., tranches) of a utility’s full-requirements load obligation (supply, capacity, ancillary services, and sometimes transmission). Auction clearing prices serve as a price heuristic for other competitive retail supply offers on the open market. Default service also substitutes for competitive retail supply for customers that cannot or will not shop. The efficiency and competitiveness of these auctions, therefore, is of societal importance. In this paper, regression analysis is performed on a unique ten-year dataset of wholesale, retail, and input market parameters for Ohio’s four investor-owned utilities to evaluate factors that influence its auction results. 
+
+### Association of type II diabetes with patient financial outcomes: evidence from consumer credit records with Caezilia Loibl, Stephanie Moulton, Don Haurin, Madison Hyer, Djhenne Dalmacy, and Joshua Joseph (_JAMA Internal Medicine_)
+
+#### One in four adults with type 2 diabetes report rationing insulin and one in three report rationing diabetes supplies1, but the broader role of diabetes for credit and debt burdens remains unexplored. This study has unique access to individual-level electronic health records (EHR) and credit panel data to assess the association between a type 2 diabetes diagnosis and missed bill payments, debt in collections, lower credit scores, debt charge-offs, foreclosures, and bankruptcy filings.
+
+***
 
 ***
 ***
@@ -65,12 +71,6 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 * Named ["Top Retirement Research Paper of 2023"](https://www.thinkadvisor.com/2023/12/26/cfp-board-picks-7-best-retirement-research-papers-of-2023/) by the Certified Financial Planning Board
 * Feature of USA Today article [*What happens to your credit score when your spouse dies? (Hint: Nothing good.)*](https://www.usatoday.com/story/money/2024/04/26/spouse-dies-credit-score-effect/73424579007/)
-
-***
-
-### Association of type II diabetes with patient financial outcomes: evidence from consumer credit records with Caezilia Loibl, Stephanie Moulton, Don Haurin, Madison Hyer, Djhenne Dalmacy, and Joshua Joseph
-
-#### One in four adults with type 2 diabetes report rationing insulin and one in three report rationing diabetes supplies1, but the broader role of diabetes for credit and debt burdens remains unexplored. This study has unique access to individual-level electronic health records (EHR) and credit panel data to assess the association between a type 2 diabetes diagnosis and missed bill payments, debt in collections, lower credit scores, debt charge-offs, foreclosures, and bankruptcy filings.
 
 ***
 
