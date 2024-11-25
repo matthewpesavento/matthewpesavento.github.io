@@ -29,7 +29,7 @@ Pesavento, M. (2022). The impact of direct to consumer shipping laws on the numb
 
 ## Under Review
 
-### [How are retail prices formed in restructed electricity markets? with Dormady, Roa-Henriquez, Hoyt, Koenig, Welch, and Li (_Energy Economics_)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4918037)
+### [How are retail prices formed in restructed electricity markets?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4918037) with Dormady, Roa-Henriquez, Hoyt, Koenig, Welch, and Li (_Energy Economics_)
 
 #### A key challenge in obtaining efficient and competitive retail rates in restructured electricity markets is constructing an appropriate default generation price. Default prices in restructured states are often set by competitive procurement auctions in which firms bid to supply a fixed percentage (i.e., tranches) of a utility’s full-requirements load obligation (supply, capacity, ancillary services, and sometimes transmission). Auction clearing prices serve as a price heuristic for other competitive retail supply offers on the open market. Default service also substitutes for competitive retail supply for customers that cannot or will not shop. The efficiency and competitiveness of these auctions, therefore, is of societal importance. In this paper, regression analysis is performed on a unique ten-year dataset of wholesale, retail, and input market parameters for Ohio’s four investor-owned utilities to evaluate factors that influence its auction results. 
 
