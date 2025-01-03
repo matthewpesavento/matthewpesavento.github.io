@@ -118,8 +118,11 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
-      {% if author.orgsite %}
-        <li><a href="https://credo-economists.org/" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Join CREDO</a></li>
+      {% if author.strava %}
+        <li><a href="https://www.strava.com/athletes/m_pesavento"><i class="fab fa-strava" aria-hidden="true"></i> Strava</a></li>
+      {% endif %}
+      {% if author.credo %}
+        <li><a href="https://credo-economists.org/" target="_blank"><i class="fa-solid fa-cross" aria-hidden="true"></i> Join CREDO</a></li>
 {% endif %}
     </ul>
   </div>
