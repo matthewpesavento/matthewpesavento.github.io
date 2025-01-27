@@ -24,16 +24,20 @@ author_profile: true
 
 Pesavento, M. (2022). The impact of direct to consumer shipping laws on the number and size distribution of U.S. wineries. *Journal of Wine Economics, 17*(4), 270-295. doi:10.1017/jwe.2022.49
 
+#### The changing legislative landscape of the U.S. wine market provides a scenario to examine the effect of regulation on the size distribution of firms. Using the variation across states and time in the sum of in-state and out-of-state adult populations between 2002–2017, and a difference in difference-style empirical model, I examine how restrictions on Direct to Consumer (DTC) sales impact the number of establishments and the employment at wineries. I find that the expansion of the potential wine market by 10 M adults caused about a 3.5% increase in the number of wineries. While reduced DTC restrictions explain growth in the number of wineries, I find no effect of lessened restrictions on the number of winery employees, though there is evidence of a lagged effect. Additionally, I find that the growth of smaller wineries substantially outpaces that of larger wineries when regulations are lessened. These results suggest that regulatory barriers in particular industries may allow states to maintain an artificial size distribution.
+
+***
+
+[How are retail prices formed in restructed electricity markets?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4918037) with Dormady, Roa-Henriquez, Hoyt, Koenig, Welch, and Li (Forthcoming in _Energy Economics_)
+
+#### A key challenge in obtaining efficient and competitive retail rates in restructured electricity markets is constructing an appropriate default generation price. Default prices in restructured states are often set by competitive procurement auctions in which firms bid to supply a fixed percentage (i.e., tranches) of a utility’s full-requirements load obligation (supply, capacity, ancillary services, and sometimes transmission). Auction clearing prices serve as a price heuristic for other competitive retail supply offers on the open market. Default service also substitutes for competitive retail supply for customers that cannot or will not shop. The efficiency and competitiveness of these auctions, therefore, is of societal importance. In this paper, regression analysis is performed on a unique ten-year dataset of wholesale, retail, and input market parameters for Ohio’s four investor-owned utilities to evaluate factors that influence its auction results. 
+
 ***
 ***
 
 ## Under Review
 
-### [How are retail prices formed in restructed electricity markets?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4918037) with Dormady, Roa-Henriquez, Hoyt, Koenig, Welch, and Li (_Energy Economics_)
-
-#### A key challenge in obtaining efficient and competitive retail rates in restructured electricity markets is constructing an appropriate default generation price. Default prices in restructured states are often set by competitive procurement auctions in which firms bid to supply a fixed percentage (i.e., tranches) of a utility’s full-requirements load obligation (supply, capacity, ancillary services, and sometimes transmission). Auction clearing prices serve as a price heuristic for other competitive retail supply offers on the open market. Default service also substitutes for competitive retail supply for customers that cannot or will not shop. The efficiency and competitiveness of these auctions, therefore, is of societal importance. In this paper, regression analysis is performed on a unique ten-year dataset of wholesale, retail, and input market parameters for Ohio’s four investor-owned utilities to evaluate factors that influence its auction results. 
-
-### Association of type II diabetes with patient financial outcomes: evidence from consumer credit records with Caezilia Loibl, Stephanie Moulton, Don Haurin, Madison Hyer, Djhenne Dalmacy, and Joshua Joseph (_JAMA Internal Medicine_)
+### Association of type II diabetes with patient financial outcomes: evidence from consumer credit records with Caezilia Loibl, Stephanie Moulton, Don Haurin, Madison Hyer, Djhenne Dalmacy, and Joshua Joseph (_JAMA Open_)
 
 #### One in four adults with type 2 diabetes report rationing insulin and one in three report rationing diabetes supplies1, but the broader role of diabetes for credit and debt burdens remains unexplored. This study has unique access to individual-level electronic health records (EHR) and credit panel data to assess the association between a type 2 diabetes diagnosis and missed bill payments, debt in collections, lower credit scores, debt charge-offs, foreclosures, and bankruptcy filings.
 
