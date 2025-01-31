@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'CMUBright';
+  src: url('/assets/fonts/cmunbmr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMUBright';
+  src: url('/assets/fonts/cmunbso.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMUBright';
+  src: url('/assets/fonts/cmunit.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Apply to your site */
+body {
+  font-family: 'CMUBright', sans-serif;
+}
