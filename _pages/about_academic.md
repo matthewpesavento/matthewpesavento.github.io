@@ -5,7 +5,7 @@ excerpt: "Matthew Pesavento, PhD"
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html
+  - /about_academic.html
 ---
 
 Welcome to the personal website of Matthew Pesavento. I completed my PhD from the [John Glenn College of Public Affairs](https://glenn.osu.edu/) at the Ohio State University in August 2024. I am now a post doctoral scholar for the Collaborative for Financial Equity and Inclusion. I primarily study questions related to the household financial effects of medical disease, with specific focus on economic mobility and inter-generational wealth transfer. I have also studied questions related to regulation and unemployment insurance.
