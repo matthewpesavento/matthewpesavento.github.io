@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /about_academic/
 title: "About Me"
 excerpt: "Matthew Pesavento, PhD"
 author_profile: true
