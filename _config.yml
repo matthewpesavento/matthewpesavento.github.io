@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Matthew Pesavento"
+title                    : "Matthew Pesavento, PhD"
 title_separator          : "-"
-name                     : &name "Matthew Pesavento"
-description              : &description "Post-Doctoral Scholar"
+name                     : &name "Matthew Pesavento, PhD"
+description              : &description "Health Economics Researcher"
 url                      : https://matthewpesavento.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "matthewpesavento.github.io"
