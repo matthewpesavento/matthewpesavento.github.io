@@ -4,7 +4,7 @@ title: "About Me"
 excerpt: "Matthew Pesavento, PhD"
 author_profile: true
 redirect_from: 
-  - /about/
+  - /about_academic/
   - /about_academic.html
 ---
 
