@@ -34,11 +34,17 @@ Dormady, N., Roa-Henriquez, A., Hoyt, M., Pesavento, M., Koenig, G., Welch, W., 
 ***
 ***
 
-## Under Review
+## Forthcoming (Accepted)
 
 ### Association of type II diabetes with patient financial outcomes: evidence from consumer credit records with Caezilia Loibl, Stephanie Moulton, Don Haurin, Madison Hyer, Djhenne Dalmacy, and Joshua Joseph (_JAMA Open_)
 
 #### One in four adults with type 2 diabetes report rationing insulin and one in three report rationing diabetes supplies1, but the broader role of diabetes for credit and debt burdens remains unexplored. This study has unique access to individual-level electronic health records (EHR) and credit panel data to assess the association between a type 2 diabetes diagnosis and missed bill payments, debt in collections, lower credit scores, debt charge-offs, foreclosures, and bankruptcy filings.
+
+***
+
+***
+
+## Under Review
 
 ***
 
