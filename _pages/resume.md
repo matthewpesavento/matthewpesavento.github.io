@@ -8,7 +8,7 @@ redirect_from:
   - /resume
 ---
 
-[Download my Resume here](https://matthewpesavento.github.io/files/Pesavento_Modern_CV.pdf)
+[Download my Resume here](https://matthewpesavento.github.io/files/Pesavento_HEOR_RWE_Resume.pdf)
 
 <iframe
     src="https://matthewpesavento.github.io/files/Pesavento_HEOR_RWE_Resume.pdf"
