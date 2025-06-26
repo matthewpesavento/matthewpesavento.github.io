@@ -63,13 +63,18 @@
 }
 
 .strava-card .activity-stats {
-  margin: 0 0 8px 0;    /* reduce spacing after stats */
-  padding-left: 18px;   /* indent bullet points */
+  columns: 2;            /* split into 2 columns */
+  -webkit-columns: 2;    /* for Safari */
+  -moz-columns: 2;       /* for Firefox */
+  column-gap: 12px;      /* gap between columns */
+  margin: 0 0 8px 0;
+  padding-left: 18px;
   list-style-type: disc;
 }
 
 .strava-card .activity-stats li {
-  margin-bottom: 0;  /* no gap, fields almost stacked */
+  margin-bottom: 2px;    /* keep tight spacing */
+  break-inside: avoid;   /* prevent items from breaking between columns */
 }
 
 .strava-card .strava-link {
