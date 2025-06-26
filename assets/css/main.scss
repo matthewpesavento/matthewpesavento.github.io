@@ -90,7 +90,9 @@
 
 /* Optional: reduce map height to save vertical space */
 .strava-leaflet-map {
-  height: 180px;  /* smaller than before */
+  width: 100%;       /* full container width */
+  height: 250px;     /* fixed height to make it roughly square */
+  max-width: 400px;  /* optional max width */
   margin-bottom: 8px;
   border-radius: 4px;
 }
