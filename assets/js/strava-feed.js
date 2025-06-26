@@ -43,7 +43,7 @@ async function loadActivities() {
       // Static map from Strava preview image
       let mapHtml = '';
       if (detail.map && detail.map.summary_polyline) {
-        const staticMapUrl = `https://maps.strava.com/tiles-auth/ride/${activity.id}/summary/300/300.png?access_token=${accessToken}`;
+        const staticMapUrl = `https://maps.strava.com/tiles-auth/ride/${detail.map.id}/summary/300/300.png?access_token=${accessToken}`;
         mapHtml = `<img src="${staticMapUrl}" alt="Activity map" class="strava-leaflet-map" />`;
       }
 
