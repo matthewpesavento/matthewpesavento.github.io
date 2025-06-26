@@ -34,20 +34,7 @@ async function loadActivities() {
       // Average speed in km/h
       const avgSpeedKmh = detail.average_speed ? (detail.average_speed * 3.6).toFixed(2) : 'N/A';
 
-      // Improved location handling
-      let location = 'Unknown';
-      if (detail.location_city) {
-        location = detail.location_city;
-      } else if (detail.start_city) {
-        location = detail.start_city;
-      } else if (detail.name && detail.name.includes(" - ")) {
-        const inferred = detail.name.split(" - ")[1];
-        if (inferred) location = inferred;
-      } else if (detail.start_latlng && detail.start_latlng.length === 2) {
-        location = `Lat: ${detail.start_latlng[0].toFixed(2)}, Lng: ${detail.start_latlng[1].toFixed(2)}`;
-      }
-
-      // Map
+      // Static map using Leaflet
       let mapHtml = '';
       if (detail.map && detail.map.summary_polyline) {
         const mapId = `map-${detail.id}`;
@@ -78,9 +65,9 @@ async function loadActivities() {
       const el = document.createElement('div');
       el.className = 'strava-card';
       el.innerHTML = `
-        <h3><span class="activity-type">${detail.type}</span>: ${detail.name}</h3>
+        <h3><span class="activity-type">${detail.type}</span>: "<span class="activity-name">${detail.name}</span>"</h3>
         ${mapHtml}
-        <p class="activity-meta">${date} · ${detail.type} · ${location}</p>
+        <p class="activity-meta">${date} · ${detail.type}</p>
         <p class="activity-description">${description ? description : '<em>No description</em>'}</p>
         <ul class="activity-stats">
           <li><strong>Distance:</strong> ${distanceKm} km</li>
