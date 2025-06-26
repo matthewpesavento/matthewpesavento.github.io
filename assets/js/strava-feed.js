@@ -1,5 +1,9 @@
 const accessToken = '865a1de0c93dac854330b68eb11b25d59894bb07';  // <-- your Strava access token
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
 function formatPace(secondsPerKm) {
   if (!secondsPerKm || secondsPerKm === Infinity) return 'N/A';
   const minutes = Math.floor(secondsPerKm / 60);
@@ -34,11 +38,12 @@ async function loadActivities() {
       // Average speed in km/h
       const avgSpeedKmh = detail.average_speed ? (detail.average_speed * 3.6).toFixed(2) : 'N/A';
 
-      // Location
+      // Location with city, state, country fallback
       const locationParts = [];
       if (detail.start_city) locationParts.push(detail.start_city);
       if (detail.start_state) locationParts.push(detail.start_state);
-      const location = locationParts.length > 0 ? locationParts.join(', ') : 'Unknown';
+      if (detail.start_country) locationParts.push(detail.start_country);
+      const location = locationParts.length > 0 ? locationParts.join(', ') : 'Unknown Location';
 
       // Create unique map container ID for each activity
       const mapId = `map-${detail.id}`;
@@ -49,8 +54,8 @@ async function loadActivities() {
       el.innerHTML = `
         <div id="${mapId}" class="strava-leaflet-map"></div>
         <div class="strava-info">
-          <h3 class="activity-title">${detail.name}</h3>
-          <p class="activity-meta">${date} · ${detail.type} · ${location}</p>
+          <h3 class="activity-title">${capitalizeFirstLetter(detail.type)}: ${detail.name}</h3>
+          <p class="activity-meta">${date} · ${capitalizeFirstLetter(detail.type)} · ${location}</p>
           <ul class="activity-stats">
             <li><strong>Distance:</strong> ${distanceKm} km</li>
             <li><strong>Time:</strong> ${movingMin} min</li>
