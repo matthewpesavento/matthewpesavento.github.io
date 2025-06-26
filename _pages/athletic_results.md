@@ -1,6 +1,9 @@
 ---
-layout: default
-title: My Race Results
+layout: archive
+title: "Race Results"
+excerpt: "Race Results"
+permalink: /athletic_results/
+author_profile: true
 ---
 
 <h2>My Race Results (from Athlinks)</h2>
