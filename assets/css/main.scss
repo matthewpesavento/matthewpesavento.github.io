@@ -41,3 +41,62 @@
 @import "print";
 
 @import "custom/custom";
+
+.strava-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  overflow: hidden;
+  margin-bottom: 1.5em;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.strava-leaflet-map {
+  height: 250px;
+  width: 100%;
+}
+
+.strava-info {
+  padding: 1em;
+  font-family: system-ui, sans-serif;
+}
+
+.activity-title {
+  margin: 0 0 0.2em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.activity-meta {
+  margin: 0 0 1em 0;
+  color: #777;
+  font-size: 0.9em;
+}
+
+.activity-stats {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 0;
+  margin: 0 0 1em 0;
+  font-size: 0.95em;
+}
+
+.activity-stats li {
+  flex: 1 1 40%;
+}
+
+.strava-link {
+  text-decoration: none;
+  color: #fc4c02;
+  font-weight: bold;
+}
+
+.strava-link:hover {
+  text-decoration: underline;
+}
+
