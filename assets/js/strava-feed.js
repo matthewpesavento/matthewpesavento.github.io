@@ -1,5 +1,12 @@
 const accessToken = '865a1de0c93dac854330b68eb11b25d59894bb07';  // <-- your access token here
 
+function formatPace(secondsPerKm) {
+  if (!secondsPerKm || secondsPerKm === Infinity) return 'N/A';
+  const minutes = Math.floor(secondsPerKm / 60);
+  const seconds = Math.round(secondsPerKm % 60);
+  return `${minutes}:${seconds.toString().padStart(2, '0')} min/km`;
+}
+
 async function loadActivities() {
   try {
     const res = await fetch('https://www.strava.com/api/v3/athlete/activities?per_page=5', {
@@ -10,7 +17,6 @@ async function loadActivities() {
     container.innerHTML = '';
 
     for (const activity of activities) {
-      // Fetch detailed info for each activity
       const detailRes = await fetch(`https://www.strava.com/api/v3/activities/${activity.id}`, {
         headers: { Authorization: 'Bearer ' + accessToken }
       });
@@ -21,7 +27,20 @@ async function loadActivities() {
       const elevationM = detail.total_elevation_gain ? detail.total_elevation_gain.toFixed(0) : 'N/A';
       const date = new Date(detail.start_date_local).toLocaleDateString();
 
-      // Build photo HTML if available
+      // Pace calculation
+      const paceSecPerKm = detail.moving_time / (detail.distance / 1000);
+      const paceFormatted = formatPace(paceSecPerKm);
+
+      // Average speed in km/h
+      const avgSpeedKmh = detail.average_speed ? (detail.average_speed * 3.6).toFixed(2) : 'N/A';
+
+      // Location
+      const locationParts = [];
+      if (detail.start_city) locationParts.push(detail.start_city);
+      if (detail.start_state) locationParts.push(detail.start_state);
+      const location = locationParts.length > 0 ? locationParts.join(', ') : 'Unknown';
+
+      // Photo
       let photoHtml = '';
       if (detail.photos && detail.photos.primary && detail.photos.primary.urls) {
         const photos = detail.photos.primary.urls;
@@ -31,7 +50,6 @@ async function loadActivities() {
         }
       }
 
-      // Create activity block
       const el = document.createElement('div');
       el.style.border = '1px solid #ccc';
       el.style.padding = '10px';
@@ -43,8 +61,11 @@ async function loadActivities() {
         <p>
           <strong>Date:</strong> ${date}<br>
           <strong>Type:</strong> ${detail.type}<br>
+          <strong>Location:</strong> ${location}<br>
           <strong>Distance:</strong> ${distanceKm} km<br>
           <strong>Moving time:</strong> ${movingMin} min<br>
+          <strong>Pace:</strong> ${paceFormatted}<br>
+          <strong>Average speed:</strong> ${avgSpeedKmh} km/h<br>
           <strong>Elevation gain:</strong> ${elevationM} m<br>
           <a href="https://www.strava.com/activities/${detail.id}" target="_blank" rel="noopener noreferrer">View on Strava</a>
         </p>
