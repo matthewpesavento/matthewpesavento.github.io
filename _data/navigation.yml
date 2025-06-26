@@ -16,8 +16,10 @@ main:
     url: /teaching/    
   
   - title: "Athletic Results"
-    url: /athletic_results/    
-
+    url: /athletic_results/  
+    
+  - title: "Latest Training"
+    url: /athletic_training/ 
 
     
 
