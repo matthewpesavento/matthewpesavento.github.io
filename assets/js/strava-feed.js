@@ -1,4 +1,4 @@
-const accessToken = '865a1de0c93dac854330b68eb11b25d59894bb07';  // <-- your Strava access token
+const accessToken = '865a1de0c93dac854330b68eb11b25d59894bb07';
 
 function formatPace(secondsPerKm) {
   if (!secondsPerKm || secondsPerKm === Infinity) return 'N/A';
@@ -26,37 +26,19 @@ async function loadActivities() {
       const movingMin = (detail.moving_time / 60).toFixed(0);
       const elevationM = detail.total_elevation_gain ? detail.total_elevation_gain.toFixed(0) : 'N/A';
       const date = new Date(detail.start_date_local).toLocaleDateString();
-
-      // Pace calculation
-      const paceSecPerKm = detail.moving_time / (detail.distance / 1000);
-      const paceFormatted = formatPace(paceSecPerKm);
-
-      // Average speed in km/h
+      const paceFormatted = formatPace(detail.moving_time / (detail.distance / 1000));
       const avgSpeedKmh = detail.average_speed ? (detail.average_speed * 3.6).toFixed(2) : 'N/A';
+      const loc = detail.start_city ? detail.start_city + (detail.start_state ? ', ' + detail.start_state : '') : 'Unknown';
+      const description = detail.description || '';
 
-      // Location
-      const locationParts = [];
-      if (detail.start_city) locationParts.push(detail.start_city);
-      if (detail.start_state) locationParts.push(detail.start_state);
-      const location = locationParts.length > 0 ? locationParts.join(', ') : 'Unknown';
-
-      // Static map from Strava preview image
-      let mapHtml = '';
-      if (detail.map && detail.map.summary_polyline) {
-        const staticMapUrl = `https://maps.strava.com/tiles-auth/ride/${detail.map.id}/summary/300/300.png?access_token=${accessToken}`;
-        mapHtml = `<img src="${staticMapUrl}" alt="Activity map" class="strava-leaflet-map" />`;
-      }
-
-      // Description
-      const description = detail.description ? detail.description : '';
-
-      const el = document.createElement('div');
-      el.className = 'strava-card';
-      el.innerHTML = `
+      const mapId = `map-${detail.id}`;
+      const card = document.createElement('div');
+      card.className = 'strava-card';
+      card.innerHTML = `
         <h3><span class="activity-type">${detail.type}</span>: ${detail.name}</h3>
-        ${mapHtml}
-        <p class="activity-meta">${date} · ${detail.type} · ${location}</p>
-        <p class="activity-description">${description ? description : '<em>No description</em>'}</p>
+        <div id="${mapId}" class="strava-leaflet-map"></div>
+        <p class="activity-meta">${date} · ${detail.type} · ${loc}</p>
+        <p class="activity-description">${description || '<em>No description</em>'}</p>
         <ul class="activity-stats">
           <li><strong>Distance:</strong> ${distanceKm} km</li>
           <li><strong>Time:</strong> ${movingMin} min</li>
@@ -64,15 +46,22 @@ async function loadActivities() {
           <li><strong>Speed:</strong> ${avgSpeedKmh} km/h</li>
           <li><strong>Elevation:</strong> ${elevationM} m</li>
         </ul>
-        <a href="https://www.strava.com/activities/${detail.id}" target="_blank" rel="noopener noreferrer" class="strava-link">View on Strava →</a>
+        <a class="strava-link" href="https://www.strava.com/activities/${detail.id}" target="_blank">View on Strava →</a>
       `;
-      container.appendChild(el);
+      container.appendChild(card);
+
+      if (detail.map && detail.map.summary_polyline) {
+        const coords = polyline.decode(detail.map.summary_polyline);
+        const latLngs = coords.map(([lat, lon]) => [lat, lon]);
+        const map = L.map(mapId, { zoomControl: false, attributionControl: false }).fitBounds(latLngs);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+        L.polyline(latLngs, { color: '#fc4c02', weight: 3 }).addTo(map);
+      }
     }
   } catch (err) {
-    const container = document.getElementById('strava-activities');
-    container.textContent = 'Failed to load activities.';
-    console.error('Error loading Strava activities:', err);
+    document.getElementById('strava-activities').textContent = 'Failed to load activities.';
+    console.error(err);
   }
 }
 
-loadActivities();
+document.addEventListener('DOMContentLoaded', loadActivities);
