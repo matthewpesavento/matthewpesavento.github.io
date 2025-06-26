@@ -1,4 +1,4 @@
-const accessToken = '865a1de0c93dac854330b68eb11b25d59894bb07';  // <-- paste your access token here
+const accessToken = '865a1de0c93dac854330b68eb11b25d59894bb07';  // <-- your access token here
 
 async function loadActivities() {
   try {
@@ -21,6 +21,7 @@ async function loadActivities() {
       const elevationM = detail.total_elevation_gain ? detail.total_elevation_gain.toFixed(0) : 'N/A';
       const date = new Date(detail.start_date_local).toLocaleDateString();
 
+      // Build photo HTML if available
       let photoHtml = '';
       if (detail.photos && detail.photos.primary && detail.photos.primary.urls) {
         const photos = detail.photos.primary.urls;
@@ -30,6 +31,7 @@ async function loadActivities() {
         }
       }
 
+      // Create activity block
       const el = document.createElement('div');
       el.style.border = '1px solid #ccc';
       el.style.padding = '10px';
@@ -44,7 +46,7 @@ async function loadActivities() {
           <strong>Distance:</strong> ${distanceKm} km<br>
           <strong>Moving time:</strong> ${movingMin} min<br>
           <strong>Elevation gain:</strong> ${elevationM} m<br>
-          <a href="https://www.strava.com/activities/${detail.id}" target="_blank">View on Strava</a>
+          <a href="https://www.strava.com/activities/${detail.id}" target="_blank" rel="noopener noreferrer">View on Strava</a>
         </p>
       `;
       container.appendChild(el);
@@ -52,7 +54,7 @@ async function loadActivities() {
   } catch (err) {
     const container = document.getElementById('strava-activities');
     container.textContent = 'Failed to load activities.';
-    console.error(err);
+    console.error('Error loading Strava activities:', err);
   }
 }
 
