@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Racent Training"
-excerpt: "Racent Training"
+title: "Recent Training"
+excerpt: "Recent Training"
 permalink: /athletic_training/
 author_profile: true
 ---
