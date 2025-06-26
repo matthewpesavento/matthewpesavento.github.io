@@ -43,12 +43,17 @@
 @import "custom/custom";
 
 .strava-card {
-  border: 1px solid #ccc;
-  padding: 8px;        /* less padding */
-  margin-bottom: 12px; /* smaller margin between cards */
-  border-radius: 5px;
+  border: none;            /* remove the border */
+  padding: 8px 0;          /* keep some vertical spacing */
+  margin-bottom: 12px;
+  border-radius: 0;        /* no rounding needed without border */
   font-family: Arial, sans-serif;
-  font-size: 14px;     /* slightly smaller font */
+  font-size: 14px;
+  max-width: 600px;        /* constrain width for better readability */
+  /* center cards on page */
+  margin-left: auto;
+  margin-right: auto;
+  background: none;        /* no background color */
 }
 
 .strava-card .activity-title {
@@ -94,9 +99,8 @@
 }
 
 .activity-type {
-  font-weight: bold;
-  text-decoration: underline;
-  color: #fc4c02;
+  font-weight: 600;
+  color: #555;  /* neutral gray */
   margin-right: 6px;
 }
 
