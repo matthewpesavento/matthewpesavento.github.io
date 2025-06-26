@@ -54,7 +54,9 @@ async function loadActivities() {
       el.innerHTML = `
         <div id="${mapId}" class="strava-leaflet-map"></div>
         <div class="strava-info">
-          <h3 class="activity-title">${capitalizeFirstLetter(detail.type)}: ${detail.name}</h3>
+          <h3 class="activity-title">
+            <span class="activity-type">${capitalizeFirstLetter(detail.type)}</span>: ${detail.name}
+          </h3>
           <p class="activity-meta">${date} · ${capitalizeFirstLetter(detail.type)} · ${location}</p>
           <ul class="activity-stats">
             <li><strong>Distance:</strong> ${distanceKm} km</li>
