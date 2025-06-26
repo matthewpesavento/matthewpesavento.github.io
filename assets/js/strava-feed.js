@@ -1,4 +1,4 @@
-const accessToken = '865a1de0c93dac854330b68eb11b25d59894bb07';  // <-- your access token here
+const accessToken = '865a1de0c93dac854330b68eb11b25d59894bb07';  // <-- your Strava access token
 
 function formatPace(secondsPerKm) {
   if (!secondsPerKm || secondsPerKm === Infinity) return 'N/A';
@@ -40,14 +40,11 @@ async function loadActivities() {
       if (detail.start_state) locationParts.push(detail.start_state);
       const location = locationParts.length > 0 ? locationParts.join(', ') : 'Unknown';
 
-      // Photo
-      let photoHtml = '';
-      if (detail.photos && detail.photos.primary && detail.photos.primary.urls) {
-        const photos = detail.photos.primary.urls;
-        const photoUrl = photos['600'] || photos['100'] || photos['300'] || Object.values(photos)[0];
-        if (photoUrl) {
-          photoHtml = `<img src="${photoUrl}" alt="Activity photo" style="max-width: 200px; display:block; margin-bottom:10px;">`;
-        }
+      // Static map from Strava preview image
+      let mapHtml = '';
+      if (detail.map && detail.map.summary_polyline) {
+        const staticMapUrl = `https://maps.strava.com/tiles-auth/ride/${activity.id}/summary/600/400.png?access_token=${accessToken}`;
+        mapHtml = `<img src="${staticMapUrl}" alt="Activity map" style="max-width:100%; display:block; margin-bottom:10px;">`;
       }
 
       const el = document.createElement('div');
@@ -57,7 +54,7 @@ async function loadActivities() {
       el.style.borderRadius = '5px';
       el.innerHTML = `
         <h3>${detail.name}</h3>
-        ${photoHtml}
+        ${mapHtml}
         <p>
           <strong>Date:</strong> ${date}<br>
           <strong>Type:</strong> ${detail.type}<br>
