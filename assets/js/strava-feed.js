@@ -40,34 +40,51 @@ async function loadActivities() {
       if (detail.start_state) locationParts.push(detail.start_state);
       const location = locationParts.length > 0 ? locationParts.join(', ') : 'Unknown';
 
-      // Static map from Strava preview image
-      let mapHtml = '';
-      if (detail.map && detail.map.summary_polyline) {
-        const staticMapUrl = `https://maps.strava.com/tiles-auth/ride/${activity.id}/summary/600/400.png?access_token=${accessToken}`;
-        mapHtml = `<img src="${staticMapUrl}" alt="Activity map" style="max-width:100%; display:block; margin-bottom:10px;">`;
-      }
+      // Create unique map container ID for each activity
+      const mapId = `map-${detail.id}`;
 
+      // Create card container
       const el = document.createElement('div');
-      el.style.border = '1px solid #ccc';
-      el.style.padding = '10px';
-      el.style.marginBottom = '1em';
-      el.style.borderRadius = '5px';
+      el.className = 'strava-card';
       el.innerHTML = `
-        <h3>${detail.name}</h3>
-        ${mapHtml}
-        <p>
-          <strong>Date:</strong> ${date}<br>
-          <strong>Type:</strong> ${detail.type}<br>
-          <strong>Location:</strong> ${location}<br>
-          <strong>Distance:</strong> ${distanceKm} km<br>
-          <strong>Moving time:</strong> ${movingMin} min<br>
-          <strong>Pace:</strong> ${paceFormatted}<br>
-          <strong>Average speed:</strong> ${avgSpeedKmh} km/h<br>
-          <strong>Elevation gain:</strong> ${elevationM} m<br>
-          <a href="https://www.strava.com/activities/${detail.id}" target="_blank" rel="noopener noreferrer">View on Strava</a>
-        </p>
+        <div id="${mapId}" class="strava-leaflet-map"></div>
+        <div class="strava-info">
+          <h3 class="activity-title">${detail.name}</h3>
+          <p class="activity-meta">${date} · ${detail.type} · ${location}</p>
+          <ul class="activity-stats">
+            <li><strong>Distance:</strong> ${distanceKm} km</li>
+            <li><strong>Time:</strong> ${movingMin} min</li>
+            <li><strong>Pace:</strong> ${paceFormatted}</li>
+            <li><strong>Speed:</strong> ${avgSpeedKmh} km/h</li>
+            <li><strong>Elevation:</strong> ${elevationM} m</li>
+          </ul>
+          <a class="strava-link" href="https://www.strava.com/activities/${detail.id}" target="_blank" rel="noopener noreferrer">View on Strava →</a>
+        </div>
       `;
       container.appendChild(el);
+
+      // Add interactive Leaflet map if polyline available
+      if (detail.map && detail.map.summary_polyline) {
+        const coords = polyline.decode(detail.map.summary_polyline);
+        const latLngs = coords.map(([lat, lng]) => [lat, lng]);
+
+        const map = L.map(mapId, {
+          zoomControl: false,
+          attributionControl: false
+        }).setView(latLngs[0], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19
+        }).addTo(map);
+
+        L.polyline(latLngs, {
+          color: '#fc4c02',
+          weight: 4,
+          opacity: 0.9
+        }).addTo(map);
+
+        map.fitBounds(latLngs);
+      }
     }
   } catch (err) {
     const container = document.getElementById('strava-activities');
@@ -76,4 +93,4 @@ async function loadActivities() {
   }
 }
 
-loadActivities();
+document.addEventListener('DOMContentLoaded', loadActivities);
