@@ -13,7 +13,7 @@ async function loadActivities() {
       headers: { Authorization: 'Bearer ' + accessToken }
     });
     const activities = await res.json();
-    const container = document.getElementById('strava-activities');
+    const container = document.getElementById('strava-sidebar-activity');
     container.innerHTML = '';
 
     for (const activity of activities) {
