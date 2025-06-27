@@ -59,7 +59,7 @@ async function loadActivities() {
       }
     }
   } catch (err) {
-    document.getElementById('strava-activities').textContent = 'Failed to load activities.';
+    document.getElementById('strava-sidebar-activity').textContent = 'Failed to load activities.';
     console.error(err);
   }
 }
